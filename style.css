@@ -1,0 +1,823 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width:1440px;
+    
+}
+                        /* ********LANDING PAGE*******  */
+
+.landing_page{
+
+    background-image: url('/assets/hero/mainbg2.png'), linear-gradient(to bottom,#D52047, #EE3D1B);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    max-width:1440px;
+    height: 782px;
+    
+}
+header{
+    margin-left:165px;
+    margin-right:165px;
+    height:100px;
+    display: flex;
+}
+.group1{
+    width: 172px;
+    height: 29px;
+    display: flex;
+    margin-top: 55px;
+    margin-right:161px;
+}
+#icon{
+    width: 29px;
+    height: 29px;
+    
+}
+#logo{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left:7px;
+
+}
+.group2{
+    margin-top:58px;
+    margin-right: 113px;
+    display: flex;
+    width: 445px;
+    height: 22px;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.group2 a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.group3{
+    margin-top:54px;
+    display: flex;
+    width:73px;
+    margin-right:50px;
+}
+.language{
+    display: flex;
+    flex-direction:row;
+    /* justify-content: space-between; */
+}
+.flag{
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+
+}
+.flag img{
+    width: 32px;
+    height: 32px;
+}
+.en{
+    margin-left: 11px;
+    display: flex;
+    width: 32px;
+    height: 22px;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin-top:5px;
+ 
+}
+.en p1{
+    width: 32px;
+    height: 22px;
+    justify-content: center;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.down{
+    width: 18px;
+    height: 18px;
+    margin-top:5px;
+
+}
+
+.group4{
+    padding-top: 55px;
+   
+}
+.loginb{
+
+}
+.group4 a{
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 11px;
+    padding-left: 29px;
+    padding-right: 28px;
+    border-radius: 6px;
+    padding-bottom: 12px;
+border: 1px solid #FFF;
+}
+
+
+.page1divhead{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    /* padding-left: 431px; */
+    padding-top:171px ;
+    text-align: center;
+  
+
+}
+.page1div2body{
+    padding-top: 39px;
+    padding-left: 450px;
+    text-align: center;
+    width: 540px;
+height: 124px;
+    color: #FFF;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height:36px;
+}
+
+.signup{
+   padding-left: 640px;
+}
+.signup a{
+    text-decoration: none;
+    padding-top: 17px;
+    padding-left: 52px;
+    padding-right: 53px;
+    padding-bottom: 16px;
+    border-radius: 6px;
+    background: #FFF;
+    color: #ED4C5C;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+                       /* ********SECOND PAGE*******  */
+
+
+
+                       
+.page2{
+    width: 1440px;
+    height: 500px;
+    flex-shrink: 0;
+    display: flex;
+}
+.page2div1{
+    width: 445px;
+    height:246px;
+    margin-top:140px;
+    margin-left:165px;
+    margin-right:125px;
+
+}
+.page2div1 h1{
+    color: #000;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.page2div1 p{
+    color: #000000;
+    text-align:justify;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+.page2div1 a{
+    text-decoration: none;
+    color: #ED4C5C;
+    text-align: justify;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.6px;
+}
+.page2div2{
+    margin-top: 94px;
+    margin-right: 260px;
+    width: 445px;
+    height: 311px;
+
+}
+.pic1{
+    z-index: 1;
+    border-radius: 15px;
+    background: lightgray 50% / cover no-repeat, #C4C4C4;
+    position: absolute;
+}
+.pic2{
+    position: relative;
+    z-index: 2;
+    margin-left:175px;
+    margin-top:130px;
+    width: 66px;
+    height: 66px;
+}
+
+
+                       /* ********THIRD PAGE*******  */
+
+
+
+.clrdif{
+    width: 1440px;
+    height: 660px;
+    background-color: #FAFAFA;
+}
+.page3{
+    margin-left:165px;
+    margin-right:165px;
+    width: 1110px;
+    height: 660px;
+}
+.heading{
+    padding-top:63px;
+    width: 1110px;
+    height: 55px;
+}
+.heading h1{
+    
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.main_3{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+.diva{
+    margin-top:63px;
+    width: 350px;
+    height: 250px;
+}
+.divb{
+    margin-top:63px;
+    width: 350px;
+    height: 250px;
+}
+.divc{
+    margin-top:63px;
+    width: 350px;
+    height: 250px;
+}
+.divc-1,.divb-1,.diva-1
+{
+    z-index: 1;
+position: relative;}
+
+
+.divc-2,.divb-2,.diva-2{
+    position: relative;
+    margin-left: 29px;
+    margin-top: -110px;
+    z-index: 2;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 8px 5px 30px 0px rgba(0, 0, 0, 0.10);
+    width: 293px;
+    height: 198px;
+    flex-shrink: 0;
+
+}
+.divc-2 h1{
+    color: #101010;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ho1{
+    padding-top: 33px;
+    padding-left:25px;
+    width: 229px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #101010;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.po1{
+    padding-left:32px ;
+    width: 229px;
+    height: 57px;
+    flex-shrink: 0;
+    color: #101010;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+.divc-2 a,.divb-2 a,.diva-2 a{
+    padding-left: 110px;
+    text-decoration: none;
+ 
+    color: #ED4C5C;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height:18px 
+}
+                                /* ************ PAGE 4 *********** */
+
+.page4{
+    width: 1440px;
+    height: 500px;
+    flex-shrink: 0;
+    background: #ffffff;
+}
+.heading2{
+    margin-top:63px;
+    margin-left: 165px;
+    
+    width: 1110px;
+    height: 55px;
+    flex-shrink: 0;
+}
+.heading2 h1{
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;}
+
+.all4{
+    margin-left:165px;
+    margin-right:165px;
+    margin-top:52px;
+    display: flex;
+    width: 1110px;
+    height: 226px;
+    justify-content: space-between;
+}
+.divi{
+    width: 255px;
+    height: 226px;
+  }
+.divii{
+    width: 255px;
+    height: 226px;
+  }
+.diviii{
+    width: 255px;
+    height: 226px;
+}
+.diviv{
+    width: 255px;
+    height: 226px;
+}
+.divpic{
+    margin-left:69px;
+    margin-right: 69px;
+    color: rgba(16, 16, 16, 0.08);
+    text-align: center;
+    font-family: Lato;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+}
+.divlog1{
+    margin-left:90px ;
+    margin-top:23%;
+    position: relative;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.divlog2{
+    margin-left:90px ;
+    margin-top:23%;
+    position: relative;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.divlog3{
+    margin-left:99px ;
+    margin-top:26%;
+    position: relative;
+    display: flex;
+    width: 70px;
+    height:70px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.divlog4{
+    margin-left:110px ;
+    margin-top:31%;
+    position: relative;
+    display: flex;
+    width: 47px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.head10{
+    color: #101010;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.p10{
+    margin-left: 25px;
+    width: 191px;
+    height: 51px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+
+                                    /* ************ PAGE 5 *********** */
+
+
+.page5{
+    background: #ED4C5C;
+    width: 1440px;
+    height: 500px;
+    flex-shrink: 0;
+    display: flex;
+}
+.page5div1{
+    padding-top: 100px;
+    width:445px;
+    height: 317px;
+    margin-left: 165px;
+    margin-right:125px ;
+}
+.page5div1a{
+    width: 445px;
+    height: 107px;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+}
+.page5div1b{
+    width: 445px;
+    height: 64px;
+
+}
+.page5div1b p1{
+    color: #FFF;
+text-align: justify;
+font-family: Lato;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height:19.6px;
+}
+
+
+
+.page5div1a h1{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+.page5div1c{
+    padding-top: 40px;
+   width:134px;
+   height: 32px;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+
+
+
+
+.page5div2{
+    padding: 94px;
+    height:311px;
+    width:533px;
+    display: flex;
+}
+/* .back{
+    z-index: 1;
+    width: 533px;
+    height: 267px;
+    flex-shrink: 0;
+} */
+.front{
+    padding-top: 94px;
+    width: 445px;
+    height: 311px;
+    flex-shrink: 0;
+}
+
+                        /* ************ PAGE 6 ************* */
+
+
+
+
+.page6{
+    background-color: #FFF;
+    width: 1440px;
+    height:500px;
+
+}
+.page6main
+{
+    margin-left:176px;
+    margin-right:165px;
+    padding-top: 117px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.page6div1a{
+    width: 445px;
+    height: 107px;
+    flex-shrink: 0;
+}
+.page6div1a h1{
+    color: #000;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.page6div1b{
+    width: 434px;
+    height: 64px;
+    flex-shrink: 0;
+}
+.page6div1b p1{
+    color: #000;
+    text-align: justify;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:19.6px ;
+}
+.page6div2{
+    padding-left: 125px;
+    background-color: rgb(255, 255, 255);
+    width: 540px;
+    height: 305px;
+}
+.sec1{
+    width: 540px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+        .input1{
+            box-sizing: border-box;
+            padding-top: 22px;
+            padding-left: 31px;
+            padding-bottom: 20px;
+            width: 255px;
+            color: rgba(19, 39, 67, 0.50);
+            font-family: Lato;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+.input1-2{
+    padding-left: 32px;
+}
+.input2{
+    padding-top: 24px;
+}
+#frm21{
+    box-sizing: border-box;
+    padding-top: 21px;
+    padding-left: 31px;
+    padding-bottom:20px;
+    width: 540px;
+    color: rgba(19, 39, 67, 0.50);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.inputsel{
+    padding-top: 30px;
+    height: 60px;
+}
+#frm22{
+    padding-top: 21px;
+    padding-left: 31px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    color: rgba(19, 39, 67, 0.50);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 6px;
+    border: 1px solid var(--gray-1, #333);width: 540px;
+}
+.sub{
+    padding-top: 30px;
+}
+#submt{
+    border-radius: 6px;
+border: 1.5px solid #ED4C5C;
+background: #ED4C5C;
+    padding-top:19px ;
+    padding-bottom:18px;
+    padding-left: 34px;
+    padding-right: 34px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+
+                                    /* **********P A G E   7  ********** */
+
+
+
+
+.page7{
+    margin-top:45px;
+    background-color:#FAFAFA;
+  width: 1440px;
+  height:435px;
+}
+.page7head{
+    padding-top: 85px;
+    padding-left: 166px;
+    padding-right: 196px;
+    display: flex;
+    justify-content: space-between;
+}
+.page7head p1{
+    color: #101010;
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.address2{
+    padding-top: 33px;
+    width: 254px;
+    color: #101010;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:18px;
+
+}
+.service2{
+    display: flex;
+    flex-direction:column;
+    padding-top: 28px;
+    justify-content: space-between;
+
+}
+.service2 a{
+    
+    text-decoration: none;
+    color: #000;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:19.2px;
+    text-transform: capitalize;
+}
+
+.support2{
+    padding-top:33px;}
+
+.touch20{
+    padding-top: 33px;
+
+        
+}
+.touch20 a{
+    text-decoration: none;
+    color: #101010;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.touch21{
+    padding-top: 11px;}
+.touch21 a{
+    text-decoration: none;
+    color: #101010;
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.touch22{
+    padding-top: 20px;}
+
+.feet{
+    padding-left: 161px;
+    padding-top: 121px;
+}
+.feet p1{
+    color: #101010;
+font-family: Lato;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
